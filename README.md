@@ -15,9 +15,12 @@ Generate keys using
 
 `ssh-keygen -t rsa -b 4096 -C "EMAIL"` 
 
-name them (if you name them differently you need to modify `ssh_conf/setup_ssh.sh` )
-`id_rsa_rvagrant` 
-`id_rsa_vagrant` 
+Name them 
+	`id_rsa_rvagrant` 
+	`id_rsa_vagrant` 
+
+Note: (if you name them differently you need to modify `ssh_conf/setup_ssh.sh` )
+
 
 Put these files inside 
 
